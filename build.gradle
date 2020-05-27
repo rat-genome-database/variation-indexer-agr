@@ -1,12 +1,11 @@
 group 'edu.mcw.rgd'
-version '1.0-SNAPSHOT'
 apply plugin: 'application'
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
 mainClassName = "edu.mcw.rgd.variantIndexer.Manager"
 applicationDefaultJvmArgs = ["-Dgreeting.language=en"]
-String myAppName="variant-indexer-agr"
+String myAppName="variant_indexer_agr"
 repositories {
     mavenCentral()
 }

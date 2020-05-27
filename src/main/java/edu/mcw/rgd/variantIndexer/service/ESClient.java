@@ -9,7 +9,10 @@ import org.elasticsearch.client.RestClientBuilder;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.settings.Settings;
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 /**
  * Created by jthota on 11/15/2019.
@@ -46,27 +49,30 @@ public class ESClient {
     public static RestHighLevelClient getInstance() {
 
         if(client==null){
+              try(InputStream input= new FileInputStream("C:/Apps/elasticsearchProps.properties")){
+          //  try(InputStream input= new FileInputStream("/data/properties/elasticsearchProps.properties")){
+                Properties props= new Properties();
+                props.load(input);
+                String VARIANTS_HOST= (String) props.get("VARIANTS_HOST");
+                System.out.println("HOST: "+ VARIANTS_HOST);
+                int port=Integer.parseInt((String) props.get("PORT"));
+                client = new RestHighLevelClient(
+                        RestClient.builder(
+                                new HttpHost(VARIANTS_HOST, port, "http")
 
-            try {
-              /*  client= new PreBuiltTransportClient(settings)
-                        .addTransportAddress(new TransportAddress(InetAddress.getByName("green.rgd.mcw.edu"), 9300));*/
-                client=new RestHighLevelClient(RestClient.builder(
-                        new HttpHost("green.rgd.mcw.edu", 9200, "http")
+                        ).setRequestConfigCallback(new RestClientBuilder.RequestConfigCallback(){
 
-                ).setRequestConfigCallback(new RestClientBuilder.RequestConfigCallback(){
+                            @Override
+                            public RequestConfig.Builder customizeRequestConfig(RequestConfig.Builder requestConfigBuilder) {
+                                return requestConfigBuilder
+                                        .setConnectTimeout(5000)
+                                        .setSocketTimeout(120000);
+                            }
+                        })
 
-                    @Override
-                    public RequestConfig.Builder customizeRequestConfig(RequestConfig.Builder requestConfigBuilder) {
-                        return requestConfigBuilder
-                                .setConnectTimeout(5000)
-                                .setSocketTimeout(120000)
-                                ;
-                    }
-                })
                 );
-
-            } catch (Exception e) {
-                log.info(e);
+                input.close();
+            }catch (Exception e){
                 e.printStackTrace();
             }
 

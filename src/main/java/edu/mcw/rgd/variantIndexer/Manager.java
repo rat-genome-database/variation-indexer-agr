@@ -1,10 +1,16 @@
 package edu.mcw.rgd.variantIndexer;
 
+import edu.mcw.rgd.variantIndexer.dao.IndexDao;
 import edu.mcw.rgd.variantIndexer.model.*;
 import edu.mcw.rgd.variantIndexer.service.ESClient;
 import edu.mcw.rgd.variantIndexer.service.IndexAdmin;
 
+import edu.mcw.rgd.variantIndexer.vcfUtils.MyThreadPoolExecutor;
+import edu.mcw.rgd.variantIndexer.vcfUtils.Processor;
 import edu.mcw.rgd.variantIndexer.vcfUtils.VCFUtils;
+import htsjdk.samtools.util.CloseableIterator;
+import htsjdk.variant.variantcontext.VariantContext;
+import htsjdk.variant.vcf.VCFFileReader;
 import org.apache.log4j.Logger;
 import org.elasticsearch.action.admin.cluster.health.ClusterHealthRequest;
 import org.elasticsearch.action.admin.cluster.health.ClusterHealthResponse;
@@ -18,8 +24,12 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import org.springframework.core.io.FileSystemResource;
 
 
+import java.io.File;
 import java.util.*;
 import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by jthota on 11/14/2019.
@@ -95,9 +105,22 @@ public class Manager {
        this.setIndex();
       //  utils.parse(fileName);
 
-        utils.parseBySamTools(fileName);
+      //  utils.parseBySamTools(fileName);
+        IndexDao dao = new IndexDao();
 
-     String clusterStatus = this.getClusterHealth(RgdIndex.getNewAlias());
+        VCFFileReader r = new VCFFileReader(new File(fileName), false);
+        CloseableIterator<VariantContext> t = r.iterator();
+        ExecutorService executor= new MyThreadPoolExecutor(10,10,0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
+        while (t.hasNext()) {
+            VariantContext ctx = t.next();
+            Runnable workerThread = new Processor(ctx);
+            workerThread.run();
+        }
+        executor.shutdown();
+        while (!executor.isTerminated()) {}
+        r.close();
+
+        String clusterStatus = this.getClusterHealth(RgdIndex.getNewAlias());
         if (!clusterStatus.equalsIgnoreCase("ok")) {
             System.out.println(clusterStatus + ", refusing to continue with operations");
            log.info(clusterStatus + ", refusing to continue with operations");
@@ -166,10 +189,6 @@ public class Manager {
         return  true;
 
     }
-
-
-
-
 
     public void setVersion(String version) {
         this.version = version;

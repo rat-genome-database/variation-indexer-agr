@@ -49,14 +49,14 @@ public class Processor implements Runnable {
             } // insertions
             if (ctx.isSimpleInsertion()) {
                 endPos = ctx.getStart();
-                System.out.println("INSERTION");
+              //  System.out.println("INSERTION");
             }
             // deletions
             else if (ctx.isSimpleDeletion()) {
                 endPos = ctx.getStart() + refNuc.getDisplayString().length();
-                System.out.println("Deletion");
+              //  System.out.println("Deletion");
             } else {
-                System.out.println("Unexpected var type");
+             //   System.out.println("Unexpected var type");
             }
             if (!utils.alleleIsValid(ctx.getReference().getBaseString())) {
                 //   System.out.println(" *** Ref Nucleotides must be A,C,G,T,N");

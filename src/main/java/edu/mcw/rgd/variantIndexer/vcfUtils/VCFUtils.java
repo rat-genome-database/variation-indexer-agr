@@ -177,18 +177,18 @@ public class VCFUtils {
                 }
             }
         }
-        return null;
+        return significance;
     }
     public List<TranscriptFeature> getConsequences(VariantContext ctx, int index, String varNuc) throws JsonProcessingException {
         List<TranscriptFeature> features = new ArrayList<>();
         if(ctx.getAttribute("CSQ")!=null) {
-            List<Object> objects = Arrays.asList(ctx.getAttribute("CSQ").toString().split(","));
+            List<String> objects = Arrays.asList(ctx.getAttribute("CSQ").toString().split(","));
 
             Map<String, Polyphen> polyphen = mapPolyphen(ctx, index);
             Map<String, String> varPep = mapVarPep(ctx);
             Map<String, List<VariantEffect>> veffects = mapVE(ctx, index);
 
-            for (Object obj : objects) {
+            for (String obj : objects) {
                 String[] tokens = obj.toString().split("\\|");
                 String feature = new String();
                 String allele = new String();
@@ -242,10 +242,10 @@ public class VCFUtils {
     public Map<String, List<VariantEffect>> mapVE(VariantContext ctx, int index){
         Map<String, List<VariantEffect>> veMap=new HashMap<>();
         if(ctx.getAttribute("VE")!=null) {
-            List<Object> objects = Arrays.asList(ctx.getAttribute("VE").toString().split(","));
+            List<String> objects = Arrays.asList(ctx.getAttribute("VE").toString().split(","));
             List<String> ids=new ArrayList<>();
-            for (Object obj : objects) {
-                System.out.println(obj.toString() + "\n");
+            for (String obj : objects) {
+             //   System.out.println(obj.toString() + "\n");
                 String[] tokens = obj.toString().split("\\|");
 
                     try {
@@ -282,12 +282,12 @@ public class VCFUtils {
     public Map<String, Polyphen> mapPolyphen(VariantContext ctx, int index){
         Map<String, Polyphen> polyphenMap=new HashMap<>();
         if(ctx.getAttribute("Polyphen")!=null) {
-            List<Object> objects = Arrays.asList(ctx.getAttribute("Polyphen").toString().split(","));
+            List<String> objects = Arrays.asList(ctx.getAttribute("Polyphen").toString().split(","));
 
 
-            for (Object obj : objects) {
+            for (String obj : objects) {
                 Polyphen p = new Polyphen();
-                System.out.println(obj.toString() + "\n");
+                //.out.println(obj.toString() + "\n");
                 String[] tokens = obj.toString().split("\\|");
                 try {
                     p.setPrediction(tokens[1]);
@@ -302,9 +302,9 @@ public class VCFUtils {
     public Map<String, String> mapVarPep(VariantContext ctx){
         Map<String, String> varPep=new HashMap<>();
         if(ctx.getAttribute("VarPep")!=null) {
-            List<Object> objects = Arrays.asList(ctx.getAttribute("VarPep").toString().split(","));
-            for (Object obj : objects) {
-                System.out.println(obj.toString() + "\n");
+            List<String> objects = Arrays.asList(ctx.getAttribute("VarPep").toString().split(","));
+            for (String obj : objects) {
+           //     System.out.println(obj.toString() + "\n");
                 String[] tokens = obj.toString().split("\\|");
                 try {
                     varPep.put(tokens[2], tokens[1]);
