@@ -1,0 +1,442 @@
+2020-05-22 14:13:44,910 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-22 14:13:44,991 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-22 14:13:45,357 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-22 14:13:45,357 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-22 14:13:45,357 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-22 14:13:55,662 INFO [main] - variants_human17_agr1 deleted
+2020-05-22 14:13:55,662 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-22 14:13:55,782 INFO [main] - variants_human17_agr1 created on  Fri May 22 14:13:55 CDT 2020
+2020-05-22 14:13:56,119 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-22 14:13:56,139 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 0
+2020-05-22 14:59:34,751 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-22 14:59:34,844 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-22 14:59:35,203 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-22 14:59:35,203 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-22 14:59:35,203 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-22 14:59:37,440 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-22 14:59:37,674 INFO [main] - variants_human17_agr2 created on  Fri May 22 14:59:37 CDT 2020
+2020-05-22 14:59:37,690 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-22 14:59:37,706 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 0
+2020-05-22 15:00:26,585 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-22 15:00:26,663 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-22 15:00:27,040 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-22 15:00:27,040 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-22 15:00:27,040 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-22 15:01:15,623 INFO [edu.mcw.rgd.variantIndexer.Manager] - cluster state is RED, refusing to continue with operations
+2020-05-22 15:01:15,623 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 46 seconds 
+2020-05-22 15:01:29,733 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-22 15:01:29,816 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-22 15:01:30,194 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-22 15:01:30,194 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-22 15:01:30,194 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-22 15:02:17,257 INFO [edu.mcw.rgd.variantIndexer.Manager] - cluster state is RED, refusing to continue with operations
+2020-05-22 15:02:17,261 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 46 seconds 
+2020-05-22 15:03:00,148 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-22 15:03:00,230 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-22 15:03:00,613 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-22 15:03:00,613 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-22 15:03:00,613 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 10:33:03,839 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 10:33:03,980 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 10:33:04,510 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 10:33:04,510 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 10:33:04,510 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 10:33:51,689 INFO [edu.mcw.rgd.variantIndexer.Manager] - cluster state is RED, refusing to continue with operations
+2020-05-26 10:33:51,689 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 46 seconds 
+2020-05-26 10:44:50,850 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 10:44:50,944 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 10:44:50,944 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 10:44:50,944 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 10:44:50,944 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 15:38:55,952 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 15:38:56,046 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 15:38:56,451 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 15:38:56,451 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 15:38:56,451 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 15:38:57,403 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 15:38:57,403 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 15:38:57,574 INFO [main] - variants_human17_agr1 created on  Tue May 26 15:38:57 CDT 2020
+2020-05-26 15:39:12,298 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 15:39:12,330 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-26 16:28:45,075 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 16:28:45,168 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 16:28:45,543 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 16:28:45,543 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 16:28:45,543 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 16:28:47,508 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 16:28:47,508 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 16:28:47,649 INFO [main] - variants_human17_agr2 created on  Tue May 26 16:28:47 CDT 2020
+2020-05-26 16:29:02,048 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 16:29:02,079 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-26 16:32:53,228 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 16:32:53,337 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 16:32:53,758 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 16:32:53,758 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 16:32:53,758 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 16:32:54,710 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 16:32:54,710 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 16:32:54,850 INFO [main] - variants_human17_agr1 created on  Tue May 26 16:32:54 CDT 2020
+2020-05-26 16:50:43,875 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 16:50:43,968 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 16:50:44,374 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 16:50:44,374 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 16:50:44,374 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 16:50:45,341 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 16:50:45,341 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 16:50:45,466 INFO [main] - variants_human17_agr1 created on  Tue May 26 16:50:45 CDT 2020
+2020-05-26 16:51:00,083 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 16:51:00,099 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-26 17:01:14,578 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:01:14,656 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:01:15,030 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:01:15,030 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:01:15,030 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:01:15,997 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 17:01:15,997 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 17:01:16,122 INFO [main] - variants_human17_agr2 created on  Tue May 26 17:01:16 CDT 2020
+2020-05-26 17:01:30,755 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:01:30,786 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-26 17:07:16,559 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:07:16,637 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:07:17,011 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:07:17,011 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:07:17,011 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:07:17,916 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:07:17,916 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:07:18,041 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:07:18 CDT 2020
+2020-05-26 17:07:32,471 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:07:32,502 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-26 17:08:19,387 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:08:19,465 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:08:19,839 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:08:19,839 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:08:19,839 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:08:20,822 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 17:08:20,822 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 17:08:20,947 INFO [main] - variants_human17_agr2 created on  Tue May 26 17:08:20 CDT 2020
+2020-05-26 17:08:35,626 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:08:35,658 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-26 17:16:48,945 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:16:49,065 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:16:49,571 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:16:49,571 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:16:49,572 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:16:50,550 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:16:50,550 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:16:50,682 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:16:50 CDT 2020
+2020-05-26 17:17:07,176 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:17:07,203 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 16 seconds 
+2020-05-26 17:28:15,599 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:28:15,690 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:28:16,095 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:28:16,095 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:28:16,096 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:28:17,016 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 17:28:17,017 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 17:28:17,142 INFO [main] - variants_human17_agr2 created on  Tue May 26 17:28:17 CDT 2020
+2020-05-26 17:28:32,242 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:28:32,261 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-26 17:33:18,930 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:33:19,025 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:33:19,432 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:33:19,432 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:33:19,432 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:33:20,378 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:33:20,378 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:33:20,507 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:33:20 CDT 2020
+2020-05-26 17:34:38,770 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:34:38,861 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:34:39,253 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:34:39,253 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:34:39,253 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:34:40,173 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:34:40,173 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:34:40,308 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:34:40 CDT 2020
+2020-05-26 17:36:35,090 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:36:35,178 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:36:35,573 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:36:35,573 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:36:35,573 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:36:36,469 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:36:36,469 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:36:36,597 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:36:36 CDT 2020
+2020-05-26 17:41:06,838 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:41:06,926 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:41:07,325 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:41:07,325 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:41:07,326 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:41:08,263 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:41:08,263 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:41:08,393 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:41:08 CDT 2020
+2020-05-26 17:42:07,152 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:42:07,241 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:42:07,636 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:42:07,636 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:42:07,636 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:42:08,574 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:42:08,574 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:42:08,710 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:42:08 CDT 2020
+2020-05-26 17:43:24,396 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:43:24,487 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:43:24,880 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:43:24,881 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:43:24,881 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:43:25,805 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:43:25,805 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:43:25,938 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:43:25 CDT 2020
+2020-05-26 17:43:41,626 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:43:41,645 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-26 17:48:01,630 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:48:01,718 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:48:02,112 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:48:02,112 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:48:02,112 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:48:03,032 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 17:48:03,032 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 17:48:03,159 INFO [main] - variants_human17_agr2 created on  Tue May 26 17:48:03 CDT 2020
+2020-05-26 17:48:18,578 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:48:18,598 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-26 17:55:40,839 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 17:55:40,922 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 17:55:41,326 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 17:55:41,327 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 17:55:41,327 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 17:55:42,241 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 17:55:42,241 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 17:55:42,436 INFO [main] - variants_human17_agr1 created on  Tue May 26 17:55:42 CDT 2020
+2020-05-26 17:55:58,178 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 17:55:58,196 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 16 seconds 
+2020-05-26 22:21:52,135 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 22:21:52,250 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 22:21:52,780 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 22:21:52,780 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 22:21:52,780 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 22:21:53,952 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 22:21:53,952 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 22:21:54,142 INFO [main] - variants_human17_agr2 created on  Tue May 26 22:21:54 CDT 2020
+2020-05-26 22:28:34,786 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 22:28:34,864 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 22:28:35,222 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 22:28:35,222 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 22:28:35,222 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 22:28:36,186 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 22:28:36,186 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 22:28:36,308 INFO [main] - variants_human17_agr2 created on  Tue May 26 22:28:36 CDT 2020
+2020-05-26 22:28:51,003 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 22:28:51,018 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-26 22:33:00,952 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 22:33:01,048 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 22:33:01,414 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 22:33:01,414 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 22:33:01,414 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 22:33:02,358 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 22:33:02,358 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 22:33:02,484 INFO [main] - variants_human17_agr1 created on  Tue May 26 22:33:02 CDT 2020
+2020-05-26 22:33:17,495 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 22:33:17,513 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-26 23:28:14,355 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 23:28:14,446 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 23:28:14,804 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 23:28:14,804 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 23:28:14,804 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 23:28:15,692 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 23:28:15,693 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 23:28:15,823 INFO [main] - variants_human17_agr2 created on  Tue May 26 23:28:15 CDT 2020
+2020-05-26 23:32:59,232 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 23:32:59,317 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 23:32:59,715 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 23:32:59,715 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 23:32:59,715 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 23:33:00,626 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 23:33:00,627 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 23:33:00,757 INFO [main] - variants_human17_agr2 created on  Tue May 26 23:33:00 CDT 2020
+2020-05-26 23:33:49,741 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 23:33:49,822 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 23:33:50,194 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 23:33:50,194 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 23:33:50,194 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 23:33:51,171 INFO [main] - variants_human17_agr2 deleted
+2020-05-26 23:33:51,172 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-26 23:33:51,297 INFO [main] - variants_human17_agr2 created on  Tue May 26 23:33:51 CDT 2020
+2020-05-26 23:34:06,248 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 23:34:06,268 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-26 23:49:04,705 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-26 23:49:04,783 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-26 23:49:05,157 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-26 23:49:05,157 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-26 23:49:05,157 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-26 23:49:06,110 INFO [main] - variants_human17_agr1 deleted
+2020-05-26 23:49:06,110 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-26 23:49:06,251 INFO [main] - variants_human17_agr1 created on  Tue May 26 23:49:06 CDT 2020
+2020-05-26 23:49:20,899 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-26 23:49:20,915 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-27 00:08:33,052 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 00:08:33,145 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 00:08:33,504 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 00:08:33,504 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 00:08:33,504 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 00:08:34,427 INFO [main] - variants_human17_agr2 deleted
+2020-05-27 00:08:34,427 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-27 00:08:34,550 INFO [main] - variants_human17_agr2 created on  Wed May 27 00:08:34 CDT 2020
+2020-05-27 00:08:49,287 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 00:08:49,303 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-27 08:42:30,220 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 08:42:30,310 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 08:42:30,729 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 08:42:30,729 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 08:42:30,729 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 08:42:31,741 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 08:42:31,741 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 08:42:31,871 INFO [main] - variants_human17_agr1 created on  Wed May 27 08:42:31 CDT 2020
+2020-05-27 08:44:00,382 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 08:44:00,460 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 08:44:00,834 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 08:44:00,834 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 08:44:00,834 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 08:44:01,805 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 08:44:01,805 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 08:44:01,930 INFO [main] - variants_human17_agr1 created on  Wed May 27 08:44:01 CDT 2020
+2020-05-27 08:48:20,222 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 08:48:20,300 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 08:48:20,674 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 08:48:20,674 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 08:48:20,674 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 08:48:21,673 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 08:48:21,673 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 08:48:21,798 INFO [main] - variants_human17_agr1 created on  Wed May 27 08:48:21 CDT 2020
+2020-05-27 08:48:36,441 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 08:48:36,475 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-27 10:21:34,217 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 10:21:34,307 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 10:21:34,681 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 10:21:34,681 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 10:21:34,681 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 10:21:35,668 INFO [main] - variants_human17_agr2 deleted
+2020-05-27 10:21:35,668 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-27 10:21:35,815 INFO [main] - variants_human17_agr2 created on  Wed May 27 10:21:35 CDT 2020
+2020-05-27 10:21:50,896 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 10:21:50,927 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-27 10:24:32,969 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 10:24:33,084 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 10:24:33,439 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 10:24:33,439 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 10:24:33,439 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 10:24:34,408 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 10:24:34,408 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 10:24:34,534 INFO [main] - variants_human17_agr1 created on  Wed May 27 10:24:34 CDT 2020
+2020-05-27 10:24:49,616 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 10:24:49,634 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-27 10:54:38,104 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 10:54:38,188 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 10:54:38,617 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 10:54:38,617 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 10:54:38,617 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 10:54:39,648 INFO [main] - variants_human17_agr2 deleted
+2020-05-27 10:54:39,648 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-27 10:54:39,752 INFO [main] - variants_human17_agr2 created on  Wed May 27 10:54:39 CDT 2020
+2020-05-27 10:54:55,302 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 10:54:55,319 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-27 10:56:16,976 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 10:56:17,054 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 10:56:17,411 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 10:56:17,411 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 10:56:17,412 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 10:56:18,382 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 10:56:18,382 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 10:56:18,530 INFO [main] - variants_human17_agr1 created on  Wed May 27 10:56:18 CDT 2020
+2020-05-27 10:57:39,481 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 10:57:39,563 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 10:57:39,951 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 10:57:39,951 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 10:57:39,951 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 10:57:40,925 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 10:57:40,925 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 10:57:41,052 INFO [main] - variants_human17_agr1 created on  Wed May 27 10:57:41 CDT 2020
+2020-05-27 11:01:29,991 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 11:01:30,069 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 11:01:30,444 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 11:01:30,444 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 11:01:30,444 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 11:01:31,429 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 11:01:31,429 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 11:01:31,554 INFO [main] - variants_human17_agr1 created on  Wed May 27 11:01:31 CDT 2020
+2020-05-27 11:02:52,104 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 11:02:52,182 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 11:02:52,571 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 11:02:52,571 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 11:02:52,571 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 11:02:53,500 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 11:02:53,500 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 11:02:53,665 INFO [main] - variants_human17_agr1 created on  Wed May 27 11:02:53 CDT 2020
+2020-05-27 11:03:08,782 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 11:03:08,797 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-27 11:29:21,320 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 11:29:21,416 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 11:29:21,807 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 11:29:21,807 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 11:29:21,807 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 11:29:22,810 INFO [main] - variants_human17_agr2 deleted
+2020-05-27 11:29:22,810 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-27 11:29:22,947 INFO [main] - variants_human17_agr2 created on  Wed May 27 11:29:22 CDT 2020
+2020-05-27 11:29:38,444 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 11:29:38,445 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-27 11:36:51,268 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 11:36:51,361 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 11:36:51,751 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 11:36:51,751 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 11:36:51,751 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 11:36:52,736 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 11:36:52,752 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 11:36:52,861 INFO [main] - variants_human17_agr1 created on  Wed May 27 11:36:52 CDT 2020
+2020-05-27 11:37:07,548 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 11:37:07,592 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 14 seconds 
+2020-05-27 11:40:32,743 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 11:40:32,837 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 11:40:33,211 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 11:40:33,211 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 11:40:33,211 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 11:40:34,229 INFO [main] - variants_human17_agr2 deleted
+2020-05-27 11:40:34,229 INFO [main] - CREATING NEW INDEX...variants_human17_agr2
+2020-05-27 11:40:34,354 INFO [main] - variants_human17_agr2 created on  Wed May 27 11:40:34 CDT 2020
+2020-05-27 11:40:49,254 INFO [edu.mcw.rgd.variantIndexer.Manager] - CLUSTER STATUR:OK. Switching Alias...
+2020-05-27 11:40:49,269 INFO [edu.mcw.rgd.variantIndexer.Manager] -  - 15 seconds 
+2020-05-27 11:55:11,878 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 11:55:11,984 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 11:55:12,391 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 11:55:12,391 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 11:55:12,406 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 11:55:13,453 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 11:55:13,453 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 11:55:13,550 INFO [main] - variants_human17_agr1 created on  Wed May 27 11:55:13 CDT 2020
+2020-05-27 12:00:35,872 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 12:00:35,966 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 12:00:36,340 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 12:00:36,340 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 12:00:36,340 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 12:00:37,327 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 12:00:37,327 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 12:00:37,467 INFO [main] - variants_human17_agr1 created on  Wed May 27 12:00:37 CDT 2020
+2020-05-27 12:03:55,669 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 12:03:55,751 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 12:03:56,138 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 12:03:56,138 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 12:03:56,154 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 12:03:57,092 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 12:03:57,092 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 12:03:57,232 INFO [main] - variants_human17_agr1 created on  Wed May 27 12:03:57 CDT 2020
+2020-05-27 12:06:21,893 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 12:06:21,976 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 12:06:22,355 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 12:06:22,355 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 12:06:22,355 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 12:06:23,278 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 12:06:23,278 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 12:06:23,434 INFO [main] - variants_human17_agr1 created on  Wed May 27 12:06:23 CDT 2020
+2020-05-27 12:08:57,670 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\git\pipelines\variant_indexer_agr\src\main\dist\properties\AppConfigure.xml]
+2020-05-27 12:08:57,751 INFO [edu.mcw.rgd.variantIndexer.Manager] - Variant Indexer v.0.1.0 Nov 14, 2019
+2020-05-27 12:08:58,135 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - SPRING_CONFIG: /Apps/default_db.xml
+2020-05-27 12:08:58,135 INFO [edu.mcw.rgd.dao.spring.XmlBeanFactoryManager] - creating XmlBeanFactory from /Apps/default_db.xml
+2020-05-27 12:08:58,151 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [C:\Apps\default_db.xml]
+2020-05-27 12:08:59,120 INFO [main] - variants_human17_agr1 deleted
+2020-05-27 12:08:59,120 INFO [main] - CREATING NEW INDEX...variants_human17_agr1
+2020-05-27 12:08:59,245 INFO [main] - variants_human17_agr1 created on  Wed May 27 12:08:59 CDT 2020
