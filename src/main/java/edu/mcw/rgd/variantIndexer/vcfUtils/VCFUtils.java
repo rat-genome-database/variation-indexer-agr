@@ -22,44 +22,6 @@ import java.util.zip.GZIPInputStream;
 
 public class VCFUtils {
 
-    public void parse(String fileName) throws Exception {
-        System.out.println("FILE NAME:" + fileName);
-        File file = new File(fileName);
-        BufferedReader reader;
-        if (file.getName().endsWith(".txt.gz") || file.getName().endsWith(".vcf.gz")) {
-            reader = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(file))));
-        } else {
-            // System.out.println("FILE: "+ file);
-            reader = new BufferedReader(new FileReader(file));
-        }
-        String line;
-        int lineCount = 0;
-        String[] header = null;
-
-        File out = new File("data/outFile.txt");
-        FileWriter writer = new FileWriter(out);
-        //    ExecutorService executor= new MyThreadPoolExecutor(10,10,0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
-        while ((line = reader.readLine()) != null) {
-            // skip comment line
-            if (line.startsWith("#")) {
-                header = line.substring(1).split("[\\t]", -1);
-                //  writer.write(line +"\n");
-            } else {
-                if (line.contains("E_Phenotype_or_Disease")) {
-                    // writer.write(line+"\n");
-                    System.out.println(line);
-                    lineCount = lineCount + 1;
-                }
-                  /*  if(lineCount>1){
-                        break;
-                    }*/
-
-            }
-        }
-        writer.close();
-        reader.close();
-    }
-    
     public List<String> mapEvidence(VariantContext ctx){
         CommonInfo info=ctx.getCommonInfo();
         List<String> evidences=new ArrayList<>();
