@@ -1,14 +1,28 @@
 package edu.mcw.rgd.variantIndexer.vcfUtils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.mcw.rgd.variantIndexer.dao.IndexDao;
 import edu.mcw.rgd.variantIndexer.model.IndexObject;
-import htsjdk.tribble.index.Index;
+import edu.mcw.rgd.variantIndexer.model.RgdIndex;
+import edu.mcw.rgd.variantIndexer.service.ESClient;
 import htsjdk.variant.variantcontext.Allele;
 import htsjdk.variant.variantcontext.CommonInfo;
 import htsjdk.variant.variantcontext.VariantContext;
+import org.elasticsearch.action.bulk.BackoffPolicy;
+import org.elasticsearch.action.bulk.BulkProcessor;
+import org.elasticsearch.action.bulk.BulkRequest;
+import org.elasticsearch.action.bulk.BulkResponse;
+import org.elasticsearch.action.index.IndexRequest;
+import org.elasticsearch.client.RequestOptions;
+import org.elasticsearch.common.unit.ByteSizeUnit;
+import org.elasticsearch.common.unit.ByteSizeValue;
+import org.elasticsearch.common.unit.TimeValue;
+import org.elasticsearch.common.xcontent.XContentType;
 
+import java.util.Date;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class Processor implements Runnable {
     private List<VariantContext> ctxs;
@@ -17,6 +31,35 @@ public class Processor implements Runnable {
     public Processor(List<VariantContext> ctxs){ this.ctxs=ctxs;}
     @Override
     public void run() {
+        BulkProcessor.Listener listener = new BulkProcessor.Listener() {
+            @Override
+            public void beforeBulk(long executionId, BulkRequest request) {
+                //        System.out.println("ACTIONS: "+request.numberOfActions());
+            }
+
+            @Override
+            public void afterBulk(long executionId, BulkRequest request,
+                                  BulkResponse response) {
+                //     System.out.println("in process...");
+            }
+
+            @Override
+            public void afterBulk(long executionId, BulkRequest request,
+                                  Throwable failure) {
+
+            }
+        };
+        BulkProcessor bulkProcessor = BulkProcessor.builder(
+                (request, bulkListener) ->
+                        ESClient.getClient().bulkAsync(request, RequestOptions.DEFAULT, bulkListener),
+                listener)
+                .setBulkActions(10000)
+                .setBulkSize(new ByteSizeValue(5, ByteSizeUnit.MB))
+                .setFlushInterval(TimeValue.timeValueSeconds(5))
+                .setConcurrentRequests(1)
+                .setBackoffPolicy(
+                        BackoffPolicy.exponentialBackoff(TimeValue.timeValueMillis(100), 3))
+                .build();
         for(VariantContext ctx:ctxs) {
             CommonInfo info = ctx.getCommonInfo();
             Allele refNuc = ctx.getReference();
@@ -93,9 +136,27 @@ public class Processor implements Runnable {
                     object.setQual((String) ctx.getAttribute("QUAL"));
                 //  System.out.println("FILTER: "+ ctx.getAttribute("FILTER") +"\t"+ ctx.getFilters().toString());
                 index = index + 1;
-                dao.index(object);
+               // dao.index(object);
+                try {
+                    ObjectMapper mapper=new ObjectMapper();
+                    String json =  mapper.writeValueAsString(object);
+                    bulkProcessor.add(new IndexRequest(RgdIndex.getNewAlias()).source(json, XContentType.JSON));
+                } catch (JsonProcessingException e) {
+                    e.printStackTrace();
+                }
             }
 
+
         }
+        try {
+            bulkProcessor.awaitClose(10, TimeUnit.MINUTES);
+            bulkProcessor.close();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }finally {
+            bulkProcessor.close();
+        }
+        System.out.println("***********"+Thread.currentThread().getName()+ "\tEND ...."+"\t"+ new Date()+"*********");
+
     }
 }
