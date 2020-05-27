@@ -1,6 +1,5 @@
 package edu.mcw.rgd.variantIndexer;
 
-import edu.mcw.rgd.variantIndexer.dao.IndexDao;
 import edu.mcw.rgd.variantIndexer.model.*;
 import edu.mcw.rgd.variantIndexer.service.ESClient;
 import edu.mcw.rgd.variantIndexer.service.IndexAdmin;
@@ -26,7 +25,6 @@ import org.springframework.core.io.FileSystemResource;
 
 import java.io.File;
 import java.util.*;
-import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
@@ -40,9 +38,6 @@ public class Manager {
     private RgdIndex rgdIndex;
     private static List environments;
     private IndexAdmin admin;
-    private int mapKey;
-    private int speciesTypeKey;
-    private String chromosome;
     private String fileName;
     private String command;     //update or reindex
     private String process;     // transcripts or variants
@@ -63,21 +58,14 @@ public class Manager {
       ESClient es= (ESClient) bf.getBean("client");
        manager.rgdIndex= (RgdIndex) bf.getBean("rgdIndex");
       try{
-
             List<String> indices= new ArrayList<>();
             manager.command=args[0];
             manager.env=args[1];
             manager.process=args[2];
-            manager.speciesTypeKey=Integer.parseInt(args[3]);
-            manager.mapKey=Integer.parseInt(args[4]);
-            manager.chromosome=args[5];
-            manager.storeType=args[6];
-            if(manager.mapKey==17){
-                manager.fileName=args[7];
+            manager.fileName=args[3];
 
-            }
             String species= "human";
-            String index=manager.process+"_"+species+manager.mapKey;
+            String index=manager.process+"_"+species;
 
             if (environments.contains(manager.env)) {
                 manager.rgdIndex.setIndex(index +"_"+manager.env);
@@ -104,9 +92,7 @@ public class Manager {
         long start = System.currentTimeMillis();
        this.setIndex();
       //  utils.parse(fileName);
-
       //  utils.parseBySamTools(fileName);
-        IndexDao dao = new IndexDao();
 
         VCFFileReader r = new VCFFileReader(new File(fileName), false);
         CloseableIterator<VariantContext> t = r.iterator();
@@ -220,30 +206,6 @@ public class Manager {
 
     public IndexAdmin getAdmin() {
         return admin;
-    }
-
-    public int getMapKey() {
-        return mapKey;
-    }
-
-    public void setMapKey(int mapKey) {
-        this.mapKey = mapKey;
-    }
-
-    public int getSpeciesTypeKey() {
-        return speciesTypeKey;
-    }
-
-    public void setSpeciesTypeKey(int speciesTypeKey) {
-        this.speciesTypeKey = speciesTypeKey;
-    }
-
-    public String getChromosome() {
-        return chromosome;
-    }
-
-    public void setChromosome(String chromosome) {
-        this.chromosome = chromosome;
     }
 
     public String getFileName() {
