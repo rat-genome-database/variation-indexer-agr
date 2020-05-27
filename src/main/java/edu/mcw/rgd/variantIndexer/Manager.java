@@ -90,17 +90,19 @@ public class Manager {
 
     public void run(String[] args) throws Exception {
         long start = System.currentTimeMillis();
-       this.setIndex();
-      //  utils.parse(fileName);
-      //  utils.parseBySamTools(fileName);
-
+        this.setIndex();
         VCFFileReader r = new VCFFileReader(new File(fileName), false);
         CloseableIterator<VariantContext> t = r.iterator();
         ExecutorService executor= new MyThreadPoolExecutor(10,10,0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
+        List<VariantContext> ctxs=new ArrayList<>();
+
         while (t.hasNext()) {
-            VariantContext ctx = t.next();
-            Runnable workerThread = new Processor(ctx);
-            workerThread.run();
+            ctxs.add(t.next());
+            if(ctxs.size()>10000) {
+                Runnable  workerThread = new Processor(ctxs);
+                workerThread.run();
+            }
+            ctxs=new ArrayList<>();
         }
         executor.shutdown();
         while (!executor.isTerminated()) {}
