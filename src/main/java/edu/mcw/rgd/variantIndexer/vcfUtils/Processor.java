@@ -26,11 +26,14 @@ import java.util.concurrent.TimeUnit;
 
 public class Processor implements Runnable {
     private List<VariantContext> ctxs;
+    private int chunkCount=0;
     VCFUtils utils=new VCFUtils();
     IndexDao dao=new IndexDao();
-    public Processor(List<VariantContext> ctxs){ this.ctxs=ctxs;}
+    public Processor(List<VariantContext> ctxs, int chunkCount){ this.ctxs=ctxs; this.chunkCount=chunkCount;}
     @Override
     public void run() {
+        System.out.println("***********"+Thread.currentThread().getName()+"\tLINE COUNT:"+chunkCount+ "\tSTARTED ...."+"\t"+ new Date()+"*********");
+
         BulkProcessor.Listener listener = new BulkProcessor.Listener() {
             @Override
             public void beforeBulk(long executionId, BulkRequest request) {

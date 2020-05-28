@@ -65,7 +65,7 @@ public class Manager {
             manager.fileName=args[3];
 
             String species= "human";
-            String index=manager.process+"_"+species;
+            String index=manager.process+"_agr_"+species;
 
             if (environments.contains(manager.env)) {
                 manager.rgdIndex.setIndex(index +"_"+manager.env);
@@ -95,14 +95,17 @@ public class Manager {
         CloseableIterator<VariantContext> t = r.iterator();
         ExecutorService executor= new MyThreadPoolExecutor(10,10,0L, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<>());
         List<VariantContext> ctxs=new ArrayList<>();
-
+        int chunkCount=0;
         while (t.hasNext()) {
             ctxs.add(t.next());
-            if(ctxs.size()>10000) {
-                Runnable  workerThread = new Processor(ctxs);
-                workerThread.run();
+            if(ctxs.size()>=10000) {
+                Runnable  workerThread = new Processor(ctxs, chunkCount);
+              //  workerThread.run();
+                executor.execute(workerThread);
+                ctxs=new ArrayList<>();
+               chunkCount = chunkCount+1;
             }
-            ctxs=new ArrayList<>();
+
         }
         executor.shutdown();
         while (!executor.isTerminated()) {}
