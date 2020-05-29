@@ -42,7 +42,7 @@ public class Manager {
     private String command;     //update or reindex
     private String process;     // transcripts or variants
     private String env;     // dev or test or prod
-    private String storeType; //loading to es or db
+    private String chromosome;
 
     VCFUtils utils=new VCFUtils();
 
@@ -62,10 +62,11 @@ public class Manager {
             manager.command=args[0];
             manager.env=args[1];
             manager.process=args[2];
-            manager.fileName=args[3];
+            manager.chromosome=args[3];
+            manager.fileName=args[4];
 
             String species= "human";
-            String index=manager.process+"_agr_"+species;
+            String index=manager.process+"_agr_"+species+"_chr"+manager.chromosome;
 
             if (environments.contains(manager.env)) {
                 manager.rgdIndex.setIndex(index +"_"+manager.env);
@@ -100,13 +101,20 @@ public class Manager {
             ctxs.add(t.next());
             if(ctxs.size()>=10000) {
                 Runnable  workerThread = new Processor(ctxs, chunkCount);
-              //  workerThread.run();
-                executor.execute(workerThread);
+               workerThread.run();
+            //    executor.execute(workerThread);
                 ctxs=new ArrayList<>();
                chunkCount = chunkCount+1;
             }
 
         }
+        if(ctxs.size() > 0){
+            Runnable  workerThread = new Processor(ctxs, chunkCount);
+              workerThread.run();
+           // executor.execute(workerThread);
+            ctxs=new ArrayList<>();
+        }
+
         executor.shutdown();
         while (!executor.isTerminated()) {}
         r.close();
